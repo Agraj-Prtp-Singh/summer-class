@@ -1,0 +1,19 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.Menu{
+    display: flex;
+
+}
+
+.menu-heading{
+    margin-top: -3px;
+margin-left: 15px;    
+}
+
+.material-symbols-outlined{
+    font-size: 200px;
+}
