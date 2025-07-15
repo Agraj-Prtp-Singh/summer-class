@@ -1,19 +1,81 @@
-body{
-    font-family: "Poppins", sans-serif;
+:root {
+  --text-color: rgb(85, 85, 85);
 }
 
-
-
-.Menu{
-    display: flex;
-
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(149, 42%, 62%, 51%);
 }
 
-.menu-heading{
-    margin-top: -3px;
-margin-left: 15px;    
+.main-container {
+  background-color: white;
+  max-width: 1440px;
+  max-height: 1024dvh;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-.material-symbols-outlined{
-    font-size: 200px;
+.menu-sidebar {
+  background-color: hsl(0, 0%, 50%, 7%);
+  width: 340px;
+  height: 877px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.menu {
+  display: flex;
+  color: var(--text-color);
+}
+
+.menu-heading {
+  margin-top: -3px;
+  margin-left: 8px;
+}
+
+.material-symbols-outlined {
+  width: 25px;
+  height: 19px;
+  color: rgb(159, 156, 156);
+}
+
+.search-box {
+  margin-left: -18px;
+  width: 335px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 82%);
+  border: none;
+  /* outline: none; */
+  color: black;
+  padding-right: 40px;
+}
+
+/* .search-box::placeholder{
+    color: hsl(0, 0%, 82%);
+} */
+.search-wrapper {
+  position: relative;
+  width: 373px;
+}
+
+.search-btn {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgb(100, 100, 100);
+  font-size: 20px;
+}
+.search-box:focus {
+  outline: 2px solid hsl(0, 1%, 39%); /* or any color you want */
+}
+
+.tasks {
+  margin-top: 78px;
+  margin-left: -8px;
+  border: solid;
+  color: var(--text-color);
 }
